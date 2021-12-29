@@ -40,7 +40,8 @@
 .conteiner-main{
     background-image: url(/index/assets/img/img-templete-principal.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    flex-wrap: nowrap;
     height: 826px;
     width: 100%;
 }
@@ -112,4 +113,30 @@
 /**/
 .box-na-midia{
     background-color: #35548f;
+    height: 99vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.article-boxs{
+    height: 500px;
+    width: 425px;
+    margin: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+.p-box{
+    padding: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    color:white;
+}
+.h2-box{
+    padding: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
 }
