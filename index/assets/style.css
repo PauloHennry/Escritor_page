@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: 0;
+    
+}
+#conteiner-header{
+    display: flex;
+    justify-content:space-evenly;
+    background: aliceblue;
+    width: 96%;
+    flex-wrap: wrap;
+    height: 8%;
+    padding: 2%;
+    align-items: center;
+
+}
+
+.title-header{
+    text-transform: uppercase;
+    padding: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(2, 27, 27);
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+/**/
+.box-conteiner-main{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+
+}
+
+.conteiner-main{
+    background-image: url(/index/assets/img/img-templete-principal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 826px;
+    width: 100%;
+}
+.box-conteudo-main{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 55vw;
+    margin-top: 80px;
+
+}
+
+.main-h1{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.main-h2{
+    font-size: 101px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+
+}
+.nav-main{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+    color:#35548f;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/**/
+.box-mais-livros{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 85vh;
+    background-color: aliceblue;
+    width: 100%;
+}
+.livros{
+    display: contents;
+    justify-content: stretch;
+    text-align: center;
+    
+    
+}
+.img-livro:hover{
+    transform:scale(0.9);
+    transition:all ease 0.2s;
+    cursor: pointer;
+
+}
+.img-h2{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 20px 0 15px 0px;
+    border-bottom: solid 1px #35548f;
+    padding-bottom: 5px;
+}
+/**/
+.box-na-midia{
+    background-color: #35548f;
+}
