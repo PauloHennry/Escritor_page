@@ -140,3 +140,31 @@
     font-style: italic;
     color: white;
 }
+/**/
+.img-autor{
+    height: 445px;
+    margin: 10px; 
+}
+.img-autor:hover{
+    transform:scale(0.9);
+    transition:all ease 0.2s;
+    cursor: pointer;
+}
+.box-biografia{
+    background: azure;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.cont-biografia{
+    width: 430px;
+    height: 242px;
+    padding-top: 25px;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 20px;
+}
