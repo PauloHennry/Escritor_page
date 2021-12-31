@@ -168,3 +168,53 @@
     text-transform: capitalize;
     padding: 20px;
 }
+
+/**/
+.box-contatos{
+    height: 595px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.contatos-h2{
+    font-size: 46px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    padding: 40px;
+    margin-bottom: 62px;
+    text-transform: uppercase;
+}
+
+.contatos-p1{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.nav-contatos{
+    text-align: center;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.contatos-nav{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;cursor: pointer;
+    padding-bottom: 10px;
+
+}
+.input-email{
+    height: 32px;
+    width: 340px;
+    padding:6px;
+}
+.bnt-contatos{
+    height: 47px;
+    padding: 15px;
+    width: 115px;
+    margin-left: 5px;
+    background: white;
+}
+    
