@@ -222,7 +222,6 @@
     background:black;
     color: white;
 }
-
 .nav-link{
     margin-bottom: 40px;
     cursor: pointer;
@@ -237,13 +236,13 @@
 }
 .cont{
     background: #80808014;
-    height: 65px;
+    height: 9vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+.p-cont{
+    display: flex;
     flex-direction: column;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 600;
 }
 
