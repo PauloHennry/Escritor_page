@@ -171,7 +171,7 @@
 
 /**/
 .box-contatos{
-    height: 595px;
+    height: 578px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,8 +207,9 @@
 }
 .input-email{
     height: 32px;
-    width: 340px;
-    padding:6px;
+    padding: 6px;
+    width: 26vw;
+    margin-bottom: 40px;
 }
 .bnt-contatos{
     height: 47px;
@@ -217,4 +218,32 @@
     margin-left: 5px;
     background: white;
 }
-    
+.bnt-contatos:hover{
+    background:black;
+    color: white;
+}
+
+.nav-link{
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.cont-logos{
+    display: flex;
+    margin-top: 40px;
+    height: 45px;
+}
+.img-logo{
+    height: 30px;
+}
+.cont{
+    background: #80808014;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
